@@ -21,7 +21,7 @@ Ao final do README, você encontrará alguns links úteis. Lá, você encontrar�
 
 ## Desenvolvimento Back-End
 
-`Com base no que foi aprendido no desafio anterior objetivo principal é criar um CRUD (CREATE, READ, UPDATE, DELETE), seguindo as regras a seguir:`
+`Com base no que foi aprendido no desafio anterior objetivo principal desse desafio é criar um CRUD (CREATE, READ, UPDATE, DELETE), seguindo as regras a seguir:`
 
 Salvar no banco os seguintes campos. 
 ```php
