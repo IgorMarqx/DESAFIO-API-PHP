@@ -1,9 +1,5 @@
 # Desafio API PHP e JavaScript
 
-<p align="center">
-  <img src="https://igor.mooveryvitor.tk/img/logotipo-moovery.png" alt="Moovery" style="text-align:center;">
-</p>
-
 Esse desafio tem como objetivo criar uma API em PHP e consumi-la com JavaScript. Para isso, você deverá usar o método FETCH nativo da linguagem JavaScript, ou, se preferir, pode optar por utilizar alguma biblioteca para fazer requisições à API, fica a seu critério.
 
 **Observação:** `Antes de prosseguir para a construção da interface do FRONT e consumir a API, você deve testar completamente a API usando o Insomnia ou o Postman.`
