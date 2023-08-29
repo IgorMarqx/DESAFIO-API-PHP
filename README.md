@@ -29,5 +29,15 @@ Para testar a API, você pode utilizar o software Insomnia ou Postman, à sua es
 
 ## Back-end
 
-1. Construa os endpoints necessários para a API.
-2. Implemente as validações necessárias para garantir a integridade dos dados.
+Salvar no banco os seguintes campos. 
+```php
+ID NAME EMAIL CPF PASSWORD CREATED_AT UPDATED_AT
+```
+Ao criar um registro, o campo CREATED_AT deve ser preenchido com a data em que o registro foi criado. O campo UPDATED_AT deve ser preenchido somente quando o registro for atualizado, com a data exata em que a atualização ocorreu.
+
+### O que validar?
+
+- O campo de e-mail deve ser validado para garantir que seja um endereço de e-mail válido e que não exista um e-mail igual já cadastrado no banco de dados.
+- O campo CPF deve ser validado para garantir que seja um CPF válido e que não exista um CPF igual já cadastrado no banco de dados.
+-O campo de senha (password) deve ser armazenado no banco de dados utilizando uma técnica de segurança chamada "hashing" (HASH) para garantir que, em caso de invasão, as senhas não estejam vulneráveis. Você pode utilizar o método nativo do PHP ```hash()``` para isso.
+
