@@ -11,21 +11,9 @@ $ git clone link-do-seu-repositorio
 ```
 3. Após o clone você deverá criar uma branch com seu nome e codificar nela.
 
-## Tópicos Abordados
-
-Durante este desafio, você terá a oportunidade de aprender e aplicar os seguintes tópicos:
-
-- Desenvolvimento de API em PHP
-- Consumo de API com JavaScript
-- Uso do método FETCH nativo do JavaScript
-- Validações de dados
-- Manipulação de dados
-- Segurança da API
-- Persistência de dados no banco com MYSQL
-
 ## Como testar a API?
 
-Para testar a API, você pode utilizar o software Insomnia ou Postman, à sua escolha. Dentro do software, selecione o tipo de requisição que deseja fazer para o seu ENDPOINT (GET, POST, PUT ou DELETE). Se for bem-sucedido, você receberá uma resposta no formato JSON.
+Para testar a API, você pode utilizar o software Insomnia ou Postman, de acordo com sua preferência. Dentro do software, informe a URL e selecione o tipo de requisição que deseja fazer para o seu ENDPOINT (GET, POST, PUT ou DELETE). Se for bem-sucedido, você deve retornar uma resposta no formato JSON.
 
 ## Back-end
 
@@ -39,5 +27,15 @@ Ao criar um registro, o campo CREATED_AT deve ser preenchido com a data em que o
 
 - O campo de e-mail deve ser validado para garantir que seja um endereço de e-mail válido e que não exista um e-mail igual já cadastrado no banco de dados.
 - O campo CPF deve ser validado para garantir que seja um CPF válido e que não exista um CPF igual já cadastrado no banco de dados.
--O campo de senha (password) deve ser armazenado no banco de dados utilizando uma técnica de segurança chamada "hashing" (HASH) para garantir que, em caso de invasão, as senhas não estejam vulneráveis. Você pode utilizar o método nativo do PHP ```hash()``` para isso.
+- O campo de senha (password) deve ser armazenado no banco de dados utilizando uma técnica de segurança chamada "hashing" (HASH) para garantir que, em caso de invasão, as senhas não estejam vulneráveis. Você pode utilizar o método nativo do PHP ```hash()``` para isso.
+- Os campos created_at e updated_at devem ser armazenados seguindo o formato de datas do banco de dados, por exemplo, "**1999-10-10**".
+
+
+## Recursos
+
+Aqui estão alguns recursos úteis que podem ajudá-lo a completar este desafio:
+
+- [Documentação do PHP](https://www.php.net/docs.php)
+- [Documentação do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [MDN Web Docs - Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 
