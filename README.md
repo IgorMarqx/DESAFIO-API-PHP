@@ -52,4 +52,6 @@ Aqui estão alguns recursos úteis que podem ajudá-lo a completar este desafio:
 - [Documentação do PHP](https://www.php.net/manual/pt_BR/index.php)
 - [MDN Web Docs - Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 
-## Boa sorte e divirta-se codificando!
+<p align="center">
+Boa sorte e divirta-se codificando! 💜
+</p>
