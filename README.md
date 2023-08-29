@@ -17,6 +17,8 @@ $ git clone link-do-seu-repositorio
 
 Para testar a API, você pode utilizar o software Insomnia ou Postman, de acordo com sua preferência. Dentro do software, informe a URL e selecione o tipo de requisição que deseja fazer para o seu ENDPOINT (GET, POST, PUT ou DELETE). Se for bem-sucedido, você deve retornar uma resposta no formato JSON.
 
+Ao final do README, você encontrará alguns links úteis. Lá, você encontrará os links para instalar um desses softwares.
+
 ## Desenvolvimento Back-End
 
 `Com base no que foi aprendido no desafio anterior objetivo principal é criar um CRUD (CREATE, READ, UPDATE, DELETE), seguindo as regras a seguir:`
@@ -41,12 +43,14 @@ Ao criar um registro, o campo CREATED_AT deve ser preenchido com a data em que o
 - Utilize o método `fetch` nativo do JavaScript ou bibliotecas de sua escolha para fazer requisições à API.
 - Crie uma interface de usuário que permita aos usuários realizar operações na API, como exibir, adicionar, atualizar e excluir recursos.
 
-## Recursos
+## Links úteis
 
 Aqui estão alguns recursos úteis que podem ajudá-lo a completar este desafio:
 
 - [Documentação do PHP](https://www.php.net/manual/pt_BR/index.php)
 - [MDN Web Docs - Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
+- [Insomnia](https://insomnia.rest/download)
+- [PostMan](https://www.postman.com/downloads/)
 
 <p align="center">
 Boa sorte e divirta-se codificando! 💜
