@@ -2,6 +2,8 @@
 
 Esse desafio tem como objetivo criar uma API em PHP e consumi-la com JavaScript. Para isso, você deverá usar o método FETCH nativo da linguagem JavaScript, ou, se preferir, pode optar por utilizar alguma biblioteca para fazer requisições à API, fica a seu critério.
 
+OBS: `Antes de prosseguir para a construção da interface do FRONT e consumir a API, você deve testar completamente a API usando o Insomnia ou o Postman.`
+
 ## Primeiros passos
 
 1. Você deverá dar um fork no repositório, fazendo isso ele será copiado para o seu GitHub.
@@ -30,12 +32,18 @@ Ao criar um registro, o campo CREATED_AT deve ser preenchido com a data em que o
 - O campo de senha (password) deve ser armazenado no banco de dados utilizando uma técnica de segurança chamada "hashing" (HASH) para garantir que, em caso de invasão, as senhas não estejam vulneráveis. Você pode utilizar o método nativo do PHP ```hash()``` para isso.
 - Os campos created_at e updated_at devem ser armazenados seguindo o formato de datas do banco de dados, por exemplo, "**1999-10-10**".
 
+## Front-end
+OBS: `Antes de prosseguir para a construção da interface do FRONT e consumir a API, você deve testar completamente a API usando o Insomnia ou o Postman.`
+
+- Desenvolva o front-end em JavaScript seguindo as melhores práticas de desenvolvimento.
+- Utilize o método `fetch` nativo do JavaScript ou bibliotecas de sua escolha para fazer requisições à API.
+- Crie uma interface de usuário que permita aos usuários realizar operações na API, como exibir, adicionar, atualizar e excluir recursos.
 
 ## Recursos
 
 Aqui estão alguns recursos úteis que podem ajudá-lo a completar este desafio:
 
-- [Documentação do PHP](https://www.php.net/docs.php)
-- [Documentação do JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Documentação do PHP](https://www.php.net/manual/pt_BR/index.php)
 - [MDN Web Docs - Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 
+## Boa sorte e divirta-se codificando!
