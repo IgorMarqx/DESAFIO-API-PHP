@@ -36,12 +36,13 @@ $ id name email cpf password created_at updated_at
 ```
 Ao criar um registro, o campo CREATED_AT deve ser preenchido com a data e hora em que o registro foi criado. O campo UPDATED_AT deve ser preenchido somente quando o registro for atualizado, com a data e hora exata em que a atualização ocorreu.
 
+**Observação:** `Os campos "created_at" e "updated_at" não devem ser enviados como parâmetros. O campo "created_at" deve ser incrementado automaticamente na criação e o campo "updated_at" na atualização.`
+
 ### Validando os dados
 
 - O campo de e-mail deve ser validado para garantir que seja um endereço de e-mail válido e que não exista um e-mail igual já cadastrado no banco de dados.
 - O campo CPF deve ser validado para garantir que seja um CPF válido e que não exista um CPF igual já cadastrado no banco de dados.
 - O campo de senha (password) deve ser armazenado no banco de dados utilizando uma técnica de segurança chamada "hashing" (HASH) para garantir que, em caso de invasão, as senhas não estejam vulneráveis. Você pode utilizar o método nativo do PHP `hash()` para isso.
-- Os campos created_at e updated_at devem ser armazenados seguindo o formato de datas do banco de dados, por exemplo, "**1999-10-10**".
 
 ## Desenvolvimento Front-End
 **Observação:** `Antes de prosseguir para a construção da interface do FRONT e consumir a API, você deve testar completamente a API usando o Insomnia ou o Postman.`
