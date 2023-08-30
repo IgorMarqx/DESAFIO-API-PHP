@@ -28,7 +28,7 @@ Para testar a API, você pode utilizar o software Insomnia ou Postman, de acordo
 
 ## Desenvolvimento Back-End
 
-`Com base no que foi aprendido no desafio anterior objetivo principal desse desafio é criar um CRUD (CREATE, READ, UPDATE, DELETE), seguindo as regras a seguir:`
+Com base no que foi aprendido no desafio anterior objetivo principal desse desafio é criar um CRUD (CREATE, READ, UPDATE, DELETE), seguindo as regras a seguir:
 
 Salvar no banco os seguintes campos. 
 ```php
