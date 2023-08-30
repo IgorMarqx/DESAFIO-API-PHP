@@ -38,7 +38,7 @@ Ao criar um registro, o campo CREATED_AT deve ser preenchido com a data e hora e
 
 **Observação1:** `Os campos "created_at" e "updated_at" não devem ser enviados como parâmetros. O campo "created_at" deve ser incrementado automaticamente na criação e o campo "updated_at" na atualização.`
 
-**Observação2:** `A conexão com o banco de dados deve ser estabelecida utilizando a biblioteca nativa do PHP conhecida como PDO (PHP Data Objects).`[Detalhes sobre o PDO](https://www.devmedia.com.br/introducao-ao-php-pdo/24973)
+**Observação2:** `A conexão com o banco de dados deve ser estabelecida utilizando a biblioteca nativa do PHP conhecida como PDO (PHP Data Objects).`
 
 ### Validando os dados
 
