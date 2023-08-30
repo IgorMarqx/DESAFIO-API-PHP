@@ -36,7 +36,9 @@ $ id name email cpf password created_at updated_at
 ```
 Ao criar um registro, o campo CREATED_AT deve ser preenchido com a data e hora em que o registro foi criado. O campo UPDATED_AT deve ser preenchido somente quando o registro for atualizado, com a data e hora exata em que a atualização ocorreu.
 
-**Observação:** `Os campos "created_at" e "updated_at" não devem ser enviados como parâmetros. O campo "created_at" deve ser incrementado automaticamente na criação e o campo "updated_at" na atualização.`
+**Observação1:** `Os campos "created_at" e "updated_at" não devem ser enviados como parâmetros. O campo "created_at" deve ser incrementado automaticamente na criação e o campo "updated_at" na atualização.`
+
+**Observação2:** `A conexão com o banco de dados deve ser estabelecida utilizando a biblioteca nativa do PHP conhecida como PDO (PHP Data Objects).`
 
 ### Validando os dados
 
@@ -47,9 +49,15 @@ Ao criar um registro, o campo CREATED_AT deve ser preenchido com a data e hora e
 ## Desenvolvimento Front-End
 **Observação:** `Antes de prosseguir para a construção da interface do FRONT e consumir a API, você deve testar completamente a API usando o Insomnia ou o Postman.`
 
-- Desenvolva o front-end em JavaScript seguindo as melhores práticas de desenvolvimento.
+- Desenvolva o front-end seguindo as melhores práticas de desenvolvimento.
 - Utilize o método `fetch` nativo do JavaScript ou bibliotecas de sua escolha para fazer requisições à API.
-- Crie uma interface de usuário que permita aos usuários realizar operações na API, como exibir, adicionar, atualizar e excluir recursos.
+- Crie uma interface de usuário que permita aos usuários realizar operações na API, como listar, criar, atualizar e excluir recursos.
+
+## Desenvolvimento Back-End Avançado (OPCIONAL)
+Neste tópico, apresento alguns desafios mais avançados que são inteiramente opcionais, mas consistem no seguinte:
+
+- Aplicar programação orientada a objetos (POO) envolvendo a criação de classes e métodos para cada funcionalidade.
+- Dividir as funcionalidades, atribuindo responsabilidades específicas a cada componente. Por exemplo, criar uma classe dedicada à inserção de dados no banco de dados, seguindo o padrão comumente denominado "repository pattern", e outra classe dedicada às validações, semelhante aos "form requests" no Laravel. Isso permite manter o controlador completamente limpo, concentrando-se apenas na geração da resposta necessária em formato JSON.
 
 ## Links úteis
 
@@ -60,6 +68,9 @@ Aqui estão alguns recursos úteis que podem ajudá-lo a completar este desafio:
 - [Insomnia](https://insomnia.rest/download)
 - [PostMan](https://www.postman.com/downloads/)
 - [Detalhes sobre EndPoint API](https://mailchimp.com/pt-br/resources/what-is-an-api-endpoint/#:~:text=O%20endpoint%20de%20API%20é,de%20comunicação%20entre%20dois%20sistemas.)
+
+## Desenvolvimento avançado links úteis
+- [Repository Pattern](https://www.mitrais.com/news-updates/repository-pattern-implementation-in-php/)
 
 <p align="center">
 Boa sorte e divirta-se codificando! 💜
