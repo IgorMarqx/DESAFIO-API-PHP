@@ -20,7 +20,12 @@ $ git branch (para verificar em qual branch você estar)
 
 Para testar a API, você pode utilizar o software Insomnia ou Postman, de acordo com sua preferência. Dentro do software, informe a URL para seu endpoint e selecione o tipo de requisição que deseja fazer para o seu ENDPOINT (GET, POST, PUT ou DELETE). Se for bem-sucedido, você deve retornar uma resposta no formato JSON.
 
-`Ao final do README, você encontrará alguns links úteis. Lá, você encontrará os links para instalar um desses softwares.`
+**Observação:** `Ao final do README, você encontrará alguns links úteis. Lá, você encontrará os links para instalar um desses softwares.`
+
+### O que é um endpoint
+- O endpoint da API representa um endereço ao qual o front-end se conecta para acessar uma funcionalidade específica. Em termos mais simples, o endpoint é a URL associada ao controller da API. Por exemplo, o controller é onde os dados são recebidos e inseridos no banco de dados.
+[Mais detalhes sobre endpoint](https://mailchimp.com/pt-br/resources/what-is-an-api-endpoint/#:~:text=O%20endpoint%20de%20API%20é,de%20comunicação%20entre%20dois%20sistemas.)
+
 
 ## Desenvolvimento Back-End
 
