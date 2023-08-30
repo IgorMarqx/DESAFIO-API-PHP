@@ -18,7 +18,7 @@ $ git branch (para verificar em qual branch você estar)
 
 ## Testando a API
 
-Para testar a API, você pode utilizar o software Insomnia ou Postman, de acordo com sua preferência. Dentro do software, informe a URL e selecione o tipo de requisição que deseja fazer para o seu ENDPOINT (GET, POST, PUT ou DELETE). Se for bem-sucedido, você deve retornar uma resposta no formato JSON.
+Para testar a API, você pode utilizar o software Insomnia ou Postman, de acordo com sua preferência. Dentro do software, informe a URL para seu endpoint e selecione o tipo de requisição que deseja fazer para o seu ENDPOINT (GET, POST, PUT ou DELETE). Se for bem-sucedido, você deve retornar uma resposta no formato JSON.
 
 `Ao final do README, você encontrará alguns links úteis. Lá, você encontrará os links para instalar um desses softwares.`
 
