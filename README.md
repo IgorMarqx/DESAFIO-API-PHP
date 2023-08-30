@@ -12,7 +12,7 @@ Esse desafio tem como objetivo criar uma API em PHP e consumi-la com JavaScript.
 $ git clone link-do-seu-repositorio
 ```
 3. Após o clone você deverá criar uma branch com seu nome e codificar nela.
-```bash
+```php
 $ git branch (para verificar em qual branch você estar)
 ```
 
