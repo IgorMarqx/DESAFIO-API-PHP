@@ -32,13 +32,7 @@ Para testar a API, você pode utilizar o software Insomnia ou Postman, de acordo
 
 Salvar no banco os seguintes campos. 
 ```php
-id
-name
-email
-cpf
-password
-created_at
-updated_at
+$ id name email cpf password created_at updated_at
 ```
 Ao criar um registro, o campo CREATED_AT deve ser preenchido com a data em que o registro foi criado. O campo UPDATED_AT deve ser preenchido somente quando o registro for atualizado, com a data exata em que a atualização ocorreu.
 
