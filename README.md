@@ -24,6 +24,7 @@ Para testar a API, você pode utilizar o software Insomnia ou Postman, de acordo
 
 ### O que é um endpoint
 - O endpoint da API representa um endereço ao qual o front-end se conecta para acessar uma funcionalidade específica. Em termos mais simples, o endpoint é a URL associada ao controller da API. Por exemplo, o controller é onde os dados são recebidos e inseridos no banco de dados.
+- Você consegue acessar e testar esses endpoint pelos softwares citados acima.
 
 ## Desenvolvimento Back-End
 
