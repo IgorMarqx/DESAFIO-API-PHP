@@ -6,7 +6,7 @@ Esse desafio tem como objetivo criar uma API em PHP e consumi-la com JavaScript.
 
 ## Configuração Inicial
 
-1. Você deverá dar um fork nesse repositório, fazendo isso ele será copiado para o seu GitHub.
+1. Você deve dar um fork nesse repositório, fazendo isso ele será copiado para o seu GitHub.
 2. Clone o repositório para sua maquina.
 ```php
 $ git clone link-do-seu-repositorio
