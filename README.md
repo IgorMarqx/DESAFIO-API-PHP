@@ -17,7 +17,7 @@ $ git clone link-do-seu-repositorio
 
 Para testar a API, você pode utilizar o software Insomnia ou Postman, de acordo com sua preferência. Dentro do software, informe a URL e selecione o tipo de requisição que deseja fazer para o seu ENDPOINT (GET, POST, PUT ou DELETE). Se for bem-sucedido, você deve retornar uma resposta no formato JSON.
 
-Ao final do README, você encontrará alguns links úteis. Lá, você encontrará os links para instalar um desses softwares.
+`Ao final do README, você encontrará alguns links úteis. Lá, você encontrará os links para instalar um desses softwares.`
 
 ## Desenvolvimento Back-End
 
