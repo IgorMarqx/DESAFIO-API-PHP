@@ -24,8 +24,6 @@ Para testar a API, você pode utilizar o software Insomnia ou Postman, de acordo
 
 ### O que é um endpoint
 - O endpoint da API representa um endereço ao qual o front-end se conecta para acessar uma funcionalidade específica. Em termos mais simples, o endpoint é a URL associada ao controller da API. Por exemplo, o controller é onde os dados são recebidos e inseridos no banco de dados.
-[Mais detalhes sobre endpoint](https://mailchimp.com/pt-br/resources/what-is-an-api-endpoint/#:~:text=O%20endpoint%20de%20API%20é,de%20comunicação%20entre%20dois%20sistemas.)
-
 
 ## Desenvolvimento Back-End
 
@@ -59,6 +57,7 @@ Aqui estão alguns recursos úteis que podem ajudá-lo a completar este desafio:
 - [MDN Web Docs - Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API)
 - [Insomnia](https://insomnia.rest/download)
 - [PostMan](https://www.postman.com/downloads/)
+- [Detalhes sobre EndPoint API](https://mailchimp.com/pt-br/resources/what-is-an-api-endpoint/#:~:text=O%20endpoint%20de%20API%20é,de%20comunicação%20entre%20dois%20sistemas.)
 
 <p align="center">
 Boa sorte e divirta-se codificando! 💜
